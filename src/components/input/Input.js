@@ -9,6 +9,7 @@ const Input = props => {
                 className={classes.inputMask}
                 mask='+7(999)999-99-99'
                 alwaysShowMask={true}
+                value={props.value}
             />
         </div>
             

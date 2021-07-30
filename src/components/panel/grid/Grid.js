@@ -3,17 +3,16 @@ import classes from './Grid.module.scss'
 const Grid = props => {
     return (
         <div className={classes.gridWrapper}>
-            <button className={classes.numBtn}>1</button>
-            <button className={classes.numBtn}>2</button>
-            <button className={classes.numBtn}>3</button>
-            <button className={classes.numBtn}>4</button>
-            <button className={classes.numBtn}>5</button>
-            <button className={classes.numBtn}>6</button>
-            <button className={classes.numBtn}>7</button>
-            <button className={classes.numBtn}>8</button>
-            <button className={classes.numBtn}>9</button>
-            <button className={classes.numBtn_two}>стереть</button>
-            <button className={classes.numBtn}>0</button>
+            {props.btns.map((btn) => {
+                // i add this only because of a button (стереть)
+                let btnClass = [classes.numBtn]
+                if(btn.span === true) {
+                    btnClass = [classes.numBtn_two]
+                }
+                return (
+                    <button onClick={() => props.panelBtns(btn.value)} className={btnClass} key={btn.value}>{btn.value}</button>
+                )
+            })}
         </div>
     )
 }
