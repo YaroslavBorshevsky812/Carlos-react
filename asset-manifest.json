@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/YaroslavBorshevsky812/Carlos-react/static/css/main.9985f04b.chunk.css",
-    "main.js": "/YaroslavBorshevsky812/Carlos-react/static/js/main.bca06aa5.chunk.js",
-    "main.js.map": "/YaroslavBorshevsky812/Carlos-react/static/js/main.bca06aa5.chunk.js.map",
-    "runtime-main.js": "/YaroslavBorshevsky812/Carlos-react/static/js/runtime-main.d7ae5ba5.js",
-    "runtime-main.js.map": "/YaroslavBorshevsky812/Carlos-react/static/js/runtime-main.d7ae5ba5.js.map",
-    "static/js/2.79bf8bf1.chunk.js": "/YaroslavBorshevsky812/Carlos-react/static/js/2.79bf8bf1.chunk.js",
-    "static/js/2.79bf8bf1.chunk.js.map": "/YaroslavBorshevsky812/Carlos-react/static/js/2.79bf8bf1.chunk.js.map",
-    "static/js/3.8ea21a9c.chunk.js": "/YaroslavBorshevsky812/Carlos-react/static/js/3.8ea21a9c.chunk.js",
-    "static/js/3.8ea21a9c.chunk.js.map": "/YaroslavBorshevsky812/Carlos-react/static/js/3.8ea21a9c.chunk.js.map",
-    "index.html": "/YaroslavBorshevsky812/Carlos-react/index.html",
-    "static/css/main.9985f04b.chunk.css.map": "/YaroslavBorshevsky812/Carlos-react/static/css/main.9985f04b.chunk.css.map",
-    "static/js/2.79bf8bf1.chunk.js.LICENSE.txt": "/YaroslavBorshevsky812/Carlos-react/static/js/2.79bf8bf1.chunk.js.LICENSE.txt",
-    "static/media/Main.module.scss": "/YaroslavBorshevsky812/Carlos-react/static/media/fon.1d9dde58.png",
-    "static/media/Intro.module.scss": "/YaroslavBorshevsky812/Carlos-react/static/media/video.44401425.png"
+    "main.css": "/Carlos-react/static/css/main.179ebb43.chunk.css",
+    "main.js": "/Carlos-react/static/js/main.bca06aa5.chunk.js",
+    "main.js.map": "/Carlos-react/static/js/main.bca06aa5.chunk.js.map",
+    "runtime-main.js": "/Carlos-react/static/js/runtime-main.983679d1.js",
+    "runtime-main.js.map": "/Carlos-react/static/js/runtime-main.983679d1.js.map",
+    "static/js/2.79bf8bf1.chunk.js": "/Carlos-react/static/js/2.79bf8bf1.chunk.js",
+    "static/js/2.79bf8bf1.chunk.js.map": "/Carlos-react/static/js/2.79bf8bf1.chunk.js.map",
+    "static/js/3.8ea21a9c.chunk.js": "/Carlos-react/static/js/3.8ea21a9c.chunk.js",
+    "static/js/3.8ea21a9c.chunk.js.map": "/Carlos-react/static/js/3.8ea21a9c.chunk.js.map",
+    "index.html": "/Carlos-react/index.html",
+    "static/css/main.179ebb43.chunk.css.map": "/Carlos-react/static/css/main.179ebb43.chunk.css.map",
+    "static/js/2.79bf8bf1.chunk.js.LICENSE.txt": "/Carlos-react/static/js/2.79bf8bf1.chunk.js.LICENSE.txt",
+    "static/media/Main.module.scss": "/Carlos-react/static/media/fon.1d9dde58.png",
+    "static/media/Intro.module.scss": "/Carlos-react/static/media/video.44401425.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d7ae5ba5.js",
+    "static/js/runtime-main.983679d1.js",
     "static/js/2.79bf8bf1.chunk.js",
-    "static/css/main.9985f04b.chunk.css",
+    "static/css/main.179ebb43.chunk.css",
     "static/js/main.bca06aa5.chunk.js"
   ]
 }
