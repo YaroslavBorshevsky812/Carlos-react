@@ -45,7 +45,7 @@ const Panel = props => {
     }
 
     function confirmAccess() {
-        if(phoneNumber.length < 9) {
+        if(phoneNumber.length < 10) {
             setRightNumber(false)
             ReactDOM.render((
                 <div className={classes.failNumber}>
