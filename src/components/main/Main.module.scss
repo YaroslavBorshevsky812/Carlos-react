@@ -7,11 +7,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    &_inner {
-        padding: 20px 20px;
-    }
     &_exit {
         position: absolute;
+        top: 20px;
         right:  20px;
         padding: 16px 33px;
         background-color: #fff;

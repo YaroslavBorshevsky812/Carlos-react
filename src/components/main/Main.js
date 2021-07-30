@@ -11,13 +11,13 @@ const Main = props => {
     
     return (
         <section id='main' className={classes.main}>
-            <div className={classes.main_inner}>
-                <button onClick={renderPanel.bind(this)} className={classes.main_exit}>x</button>
-                <div className={classes.main_info}>
-                    <span className={classes.main_info_text}>сканируйте qr код для получения дополнительной информации</span>
-                    <img className={classes.qr} src={QR}/>
+                <div className={classes.picture}>
+                    <button onClick={renderPanel.bind(this)} className={classes.main_exit}>x</button>
+                    <div className={classes.main_info}>
+                        <span className={classes.main_info_text}>сканируйте qr код для получения дополнительной информации</span>
+                        <img className={classes.qr} src={QR}/>
+                    </div>
                 </div>
-            </div>
             <Panel/>
         </section>
     )

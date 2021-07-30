@@ -83,3 +83,17 @@
 
 
 
+.failNumber {
+    margin-top: 30px;
+    margin-bottom: 23px;
+    &_text {
+        padding: 20px 0px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #ea0000;
+        text-transform: uppercase;
+    }
+}
+
+
+

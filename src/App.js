@@ -3,7 +3,7 @@ import Input from './components/input/Input'
 import Intro from './components/intro/Intro'
 import Main from './components/main/Main'
 
- 
+
 class App extends React.Component {
   
   render() {
@@ -11,7 +11,6 @@ class App extends React.Component {
       <div>
         <Intro/>
         <Main/>
-        {/* <Input/> */}
       </div>
     )
   }
