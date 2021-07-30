@@ -1,0 +1,38 @@
+.gridWrapper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 88px);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.numBtn {
+    color: #000;
+    font-size: 16px;
+    padding: 12px 30px;
+    border: 2px solid #000;
+    background: none;
+    cursor: pointer;
+    transition: color .2s;
+    transition: all .2s;
+    &:hover {
+        background-color: #000;
+        color: #fff;
+    }
+    &_two {
+        background: none;
+        grid-column: span 2;
+        color: #000;
+        font-size: 16px;
+        padding: 12px 30px;
+        border: 2px solid #000;
+        cursor: pointer;
+        transition: color .2s;
+        transition: all .2s;
+        &:hover {
+            background-color: #000;
+            color: #fff;
+        }
+    }
+}

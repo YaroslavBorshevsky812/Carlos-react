@@ -1,0 +1,80 @@
+.panel {
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 380px;
+    height: 100vh;
+    background-color: #86d3f4;
+    text-align: center;
+        .panel_inner {
+            padding: 70px 50px;
+        }
+        .panel_title {
+            font-size: 26px;
+            font-weight: 300;
+        }
+        .panel_subtitle {
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 35px;
+        }
+}
+
+.checkbox {
+    display: flex;
+    padding: 10px 10px;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 43px;
+    margin-bottom: 23px;
+    &_input {
+        appearance: none;
+        width: 40px;
+        height: 40px;
+        border: 2px solid #000;
+        position: relative;
+        cursor: pointer;
+        &::before {
+            content: url('../../images/input/check.png');
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            opacity: 0;
+            transition: .2s;
+            
+        }
+        &:hover::before {
+            opacity: 1;
+        }
+        
+        &:checked::before {
+            opacity: 1;
+        }
+    }
+    &_text {
+        color: #565656;
+        font-size: 14px;
+        font-weight: 300;
+        width: 215px;
+    }
+}
+
+.pannel_btn {
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 19px;
+    border: 1px solid #4e4e4e;
+    background: none;
+    transition: color .2s;
+    transition: all .2s;
+    &:hover {
+        background-color: #000;
+        color: #fff;
+    }
+}
+
+
+
